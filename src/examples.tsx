@@ -10,7 +10,7 @@ export function CarrotCaret() {
                     marginLeft: "-8px"
                 }}
             >
-                <img src="/react-custom-caret-examples/carrot.svg" alt="|" width={17} height={17}/>
+                <img src="/react-custom-caret/carrot.svg" alt="|" width={17} height={17}/>
             </div>}
         ></CustomCaret>
     );
@@ -25,7 +25,7 @@ export const CarrotCaretString = `
             marginLeft: "-8px"
         }}
     >
-        <img src="/react-custom-caret-examples/carrot.svg" alt="|" width={17} height={17} />
+        <img src="carrot.svg" alt="|" width={17} height={17} />
     </div>}
 ></CustomCaret>
 `;

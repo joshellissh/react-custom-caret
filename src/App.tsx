@@ -13,7 +13,7 @@ function App() {
               marginTop: "50px",
               marginBottom: "50px"
           }}>
-              <img src="/react-custom-caret-examples/rcc.svg" alt="react-custom-caret" />
+              <img src="/react-custom-caret/rcc.svg" alt="react-custom-caret" />
           </div>
           <div style={{
               width: "50%",

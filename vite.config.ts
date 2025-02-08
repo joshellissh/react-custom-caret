@@ -9,7 +9,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-custom-caret-examples",
+  base: "/react-custom-caret",
   plugins: [
     react(),
     libInjectCss(),
