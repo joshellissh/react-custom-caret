@@ -2,7 +2,7 @@
   "name": "react-custom-caret",
   "author": "Josh Ellis",
   "private": false,
-  "version": "1.0.12",
+  "version": "1.0.14",
   "type": "module",
   "exports": {
     ".": {
@@ -22,8 +22,7 @@
   ],
   "scripts": {
     "dev": "tsc -b ./tsconfig.json && vite build && vite",
-    "build": "tsc -b ./tsconfig.app.json && vite build",
-    "build-lib": "tsc -b ./tsconfig.lib.json && vite build --mode lib",
+    "build": "tsc -b ./tsconfig.lib.json && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
